@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='./assets/css/styles.css'>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<title>Módulo Front-end I - AP Tabelas HTML - Pagina 01</title>
+</head>
+
+<body>
+	<nav class="links" style="--items: 3;">
+		<a class="active" href="./pagina01.html">Página 1</a>
+		<a href="./pagina02.html">Página 2</a>
+		<a href="./pagina03.html">Página 3</a>
+		<span class="line"></span>
+	</nav>
+	<header>
+		<br>
+		<h1>Atividade Prática - Tabelas HTML - Pagina 01</h1>
+		<br>
+	</header>
+	<!-- TABELA 01 -->
+	<div>
+		<table>
+			<colgroup>
+				<col style="background-color: cornflowerblue;">
+				<col style="background-color: aquamarine;">
+				<col style="background-color: burlywood;">
+			</colgroup>
+			<tr class="tleft">
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr class="tcenter">
+				<td>4</th>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr class="tright">
+				<th>7</th>
+				<td>8</td>
+				<td>9</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<!-- TABELA 02 -->
+	<div>
+		<table>
+			<colgroup>
+				<col style="background-color: burlywood;">
+				<col style="background-color: cornflowerblue;">
+				<col style="background-color: aquamarine;">
+			</colgroup>
+			<tr class="tleft">
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr class="tcenter">
+				<td colspan="3">4</td>
+			</tr>
+			<tr class="tleft">
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<!-- TABELA 03 -->
+	<div>
+		<table>
+			<colgroup>
+				<col style="background-color: aquamarine;">
+				<col style="background-color: burlywood;">
+				<col style="background-color: cornflowerblue;">
+			</colgroup>
+			<tr class="tleft">
+				<td>1</td>
+				<td>2</td>
+				<td class="tcenter" rowspan="3">3</td>
+			</tr>
+			<tr class="tcenter">
+				<td colspan="2">4</td>
+			</tr>
+			<tr class="tleft">
+				<td>5</td>
+				<td>6</td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
